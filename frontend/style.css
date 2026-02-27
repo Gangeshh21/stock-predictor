@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #141E30, #243B55);
+    color: white;
+    text-align: center;
+}
+
+.container {
+    padding: 40px;
+}
+
+.input-section {
+    margin: 20px 0;
+}
+
+input {
+    padding: 12px;
+    margin: 5px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    width: 200px;
+}
+
+button {
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: #00c6ff;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0072ff;
+    color: white;
+}
+
+#chart {
+    margin-top: 30px;
+}
+
+.hidden {
+    display: none;
+}
